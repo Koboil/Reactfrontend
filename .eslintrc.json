@@ -1,0 +1,19 @@
+{
+  "settings": {
+  "react": {
+    "version": "detect" // Automatically detects the React version
+  }
+},
+  "parser": "@typescript-eslint/parser",
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended","prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "import/no-unresolved": "error",
+    "@typescript-eslint/no-unused-vars": "off",
+    "eslint-disable-next-line": "off",
+    "react/no-unescaped-entities": "off",
+    "no-console": "error",
+    "react/prop-types": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
